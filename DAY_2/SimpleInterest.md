@@ -1,11 +1,12 @@
+## DAY 1: Simple Interest Program Flowchart (Proper Shapes - Fixed)
 
 ```mermaid
 graph TD
-A[Start]
-B[Input P, R, T]
+A([Start])
+B[/Input P, R, T/]
 C[Calculate Simple Interest]
-D[Output SI]
-E[End]
+D[/Output SI/]
+E([End])
 
 A --> B
 B --> C
