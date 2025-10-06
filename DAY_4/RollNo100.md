@@ -2,25 +2,19 @@
 ```mermaid
 graph TD
 A([Start])
-B[/Input a, b, c/]
-C{a > b?}
-D{a > c?}
-E{b > c?}
-F[/Output a is Max/]
-G[/Output b is Max/]
-H[/Output c is Max/]
-I([End])
+B[/Input Roll Number/]
+C{roll == 100?}
+D{roll != 100?}
+E[/Output "100 is present."/]
+F[/Output "100 is not present."/]
+G([End])
 
 A --> B
 B --> C
+B --> D
 
-C -- Yes --> D
+C -- Yes --> E
 D -- Yes --> F
-D -- No --> H
-F --> I
-H --> I
 
-C -- No --> E
-E -- Yes --> G
-E -- No --> H
-G --> I
+E --> G
+F --> G
