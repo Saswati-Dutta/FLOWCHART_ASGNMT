@@ -3,7 +3,7 @@
 graph TD
 A([Start])
 B[/Input length, breadth/]
-C[Area = L * B; Perimeter = 2 * (L + B)]
+C[Calculate Area and Perimeter]
 D[/Output Area, Perimeter/]
 E([End])
 
