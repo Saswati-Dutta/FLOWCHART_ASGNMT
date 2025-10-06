@@ -1,4 +1,4 @@
-## DAY 1: Simple Interest Program Flowchart (Proper Shapes - Fixed)
+
 
 ```mermaid
 graph TD
